@@ -7,12 +7,12 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDXkuXybjU5nOQlAqYUMGkZaNyp3eGNVvA",
-  authDomain: "earth-55e2e.firebaseapp.com",
-  projectId: "earth-55e2e",
-  storageBucket: "earth-55e2e.firebasestorage.app",
-  messagingSenderId: "813775147715",
-  appId: "1:813775147715:web:4a5af11196e992d43a4876"
+  apiKey: "AIzaSyDG7R8WlaKk8_Q8x2oZUtvOpAxPdMJ1ZXk",
+  authDomain: "earthco-ecad3.firebaseapp.com",
+  projectId: "earthco-ecad3",
+  storageBucket: "earthco-ecad3.appspot.com",
+  messagingSenderId: "1031853299242",
+  appId: "1:1031853299242:web:d7dc3bd030b07a362c5553"
 }
 
 // Initialize Firebase
