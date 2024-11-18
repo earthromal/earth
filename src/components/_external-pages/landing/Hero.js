@@ -92,14 +92,14 @@ export default function Hero() {
           <ContentStyle>
             <motion.div variants={varFadeInRight}>
               <Typography variant="h1" sx={{ color: 'common.white' }}>
-                Solution <br />
-                of
+                Earth <br />
+                Health
                 <Typography
                   component="span"
                   variant="h1"
                   sx={{ color: 'primary.main' }}
                 >
-                  &nbsp;Unemployment
+                  &nbsp;& Solution
                 </Typography>
               </Typography>
 
