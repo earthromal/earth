@@ -148,18 +148,7 @@ export default function Hero() {
                 </Button>
               </NextLink>
             </motion.div>
-            <motion.div variants={varFadeInRight}>
-              <NextLink href={'https://e-madrasa.vercel.app/'}>
-                <Button
-                  size="medium"
-                  variant="contained"
-                  startIcon={<Icon icon={flashFill} width={20} height={20} />}
-                  color="warning"
-                >
-                  E-Madrasa
-                </Button>
-              </NextLink>
-            </motion.div>
+            
           </ContentStyle>
         </Container>
       </RootStyle>
