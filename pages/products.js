@@ -123,18 +123,7 @@ const ProductsPage = () => {
   ]
 
   const special = [
-    {
-      name: 'Potato',
-      details: 'Best quality potato with no preservatives',
-      image: '/static/product/2.jpg',
-    },
-    {
-      name: 'Rice',
-      details: 'Freshly harvested rice from the farm',
-      image: '/static/product/1.jpg',
-    },
-    {
-      name: 'Potato',
+    {      name: 'Potato',
       details: 'Best quality potato with no preservatives',
       image: '/static/product/mash.jpg',
     },
@@ -154,6 +143,8 @@ const ProductsPage = () => {
           <Box
             sx={{ display: 'flex', width: '100%', justifyContent: 'center' }}
           >
+            <img src="/static/product/n.jpg" alt="" />
+            <img src="/static/product/n.jpg" alt="" />
             <img src="/static/product/n.jpg" alt="" />
           </Box>
 
