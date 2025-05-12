@@ -140,13 +140,22 @@ const ProductsPage = () => {
             Our Products
           </Typography>
 
-          <Box
-            sx={{ display: 'flex', width: '100%', justifyContent: 'center' }}
-          >
-            <img src="/static/product/n.jpg" alt="" />
-            <img src="/static/product/n.jpg" alt="" />
-            <img src="/static/product/n.jpg" alt="" />
-          </Box>
+        <Box
+  sx={{
+    display: 'grid',
+    width: '100%',
+    gridTemplateColumns: {
+      xs: '1fr',       // 1 column on extra-small (mobile) devices
+      md: 'repeat(3, 1fr)', // 3 columns on medium and larger devices
+    },
+    gap: 2, // Optional: adds spacing between images
+    justifyItems: 'center' // Optional: centers items in their grid cells
+  }}
+>
+  <img src="/static/product/n.jpg" alt="" />
+  <img src="/static/product/n.jpg" alt="" />
+  <img src="/static/product/n.jpg" alt="" />
+</Box>
 
           <Grid
             container
