@@ -152,9 +152,9 @@ const ProductsPage = () => {
     justifyItems: 'center' // Optional: centers items in their grid cells
   }}
 >
-  <img src="/static/product/im1jpg" alt="" />
-  <img src="/static/product/im2.jpg" alt="" />
-  <img src="/static/product/im3.jpg" alt="" />
+  <img src="/static/product/im1.jpg" alt="" />
+  <img src="/static/product/im2.png" alt="" />
+  <img src="/static/product/im3.png" alt="" />
 </Box>
 
           <Grid
